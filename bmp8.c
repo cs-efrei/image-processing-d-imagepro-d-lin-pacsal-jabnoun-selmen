@@ -33,7 +33,6 @@ t_bmp8 *bmp8_loadImage(const char *filename) {
         return NULL;
     }
 
-    // Sécurité : si dataSize est nul, on le calcule
     if (img->dataSize == 0) {
         img->dataSize = img->width * img->height;
     }
@@ -52,7 +51,6 @@ void bmp8_saveImage(const char *filename, t_bmp8 *img) {
         return;
     }
 
-    // Mise à jour taille des données et taille fichier dans le header
     if (img->dataSize == 0) {
         img->dataSize = img->width * img->height;
     }
