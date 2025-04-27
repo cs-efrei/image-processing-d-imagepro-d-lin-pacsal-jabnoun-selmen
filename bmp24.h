@@ -42,7 +42,6 @@ typedef struct {
     t_pixel **data;
 } t_bmp24;
 
-// Fonctions demandées
 t_pixel **bmp24_allocateDataPixels(int width, int height);
 void bmp24_freeDataPixels(t_pixel **pixels, int height);
 t_bmp24 *bmp24_allocate(int width, int height, int colorDepth);
@@ -58,7 +57,6 @@ void bmp24_brightness(t_bmp24 *img, int value);
 t_pixel bmp24_convolution(t_bmp24 *img, int x, int y, float **kernel, int kernelSize);
 void bmp24_applyFilter(t_bmp24 *img, float **kernel, int kernelSize);
 
-// Filtres supplémentaires
 float **getBoxBlurKernel();
 float **getGaussianBlurKernel();
 float **getOutlineKernel();
