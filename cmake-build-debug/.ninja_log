@@ -1,0 +1,7 @@
+# ninja log v6
+2	285	7674780191733603	build.ninja	96b8bb11b488a8e2
+5	105	7674768121751721	CMakeFiles/Projet.dir/main.c.obj	b1015e57b9c9e606
+12	133	7674769581369903	CMakeFiles/Projet.dir/bmp24.c.obj	6460ffdf8e1d1ee
+3	57	7673185362916800	CMakeFiles/Projet.dir/bpm8.c.obj	cb68b580fd2f1b28
+3	149	7674758407592244	CMakeFiles/Projet.dir/bmp8.c.obj	6f326b104fa55890
+134	261	7674769582580240	Projet.exe	f3edb9118d75da4a
